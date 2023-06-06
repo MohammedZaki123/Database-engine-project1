@@ -1,0 +1,3 @@
+Name,Type,FileName,FileLocationonHarddisk
+Student,Table,Student1.csv,src/resources/
+Student,Table,Student2.csv,src/resources/

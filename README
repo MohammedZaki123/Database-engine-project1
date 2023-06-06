@@ -1,0 +1,21 @@
+ Milestone 1 of the database engine is divided into 4 methods
+ 1- Create table: 
+ 2- Insert Into table: Input Parameters: table_name(String) , column name value(hash table)
+ - Building a temporary set to store keys of the hash table   
+ - Putting the values of specific column names(keys) in an array list one by one 
+ - First Page is created, when the insert into table is implemented for the first time
+ - When inserting to student table is finished, and insertion to employee table begins,
+ the inserted tuple will shift to another page with the name employee1
+ - When page for a table is created for the first time, page number is set to zero
+ - When page for another table is created, it must be set to zero in terms of table name
+ 
+ 
+ 
+ 
+ - Sparse Index: each row in the index consists of 3 parts:
+ 1- a value of column the index is built on
+ 2- the name of page the value contained in the disk 
+ 3- the row number of the value in the page
+ 
+ Sparse for non-Clustering: 1st level dense index, 2nd level sparse index
+ - each level is stored in one csv file     
