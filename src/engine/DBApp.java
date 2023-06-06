@@ -90,6 +90,8 @@ public class DBApp {
 	            ex.printStackTrace();
 	        }
 	        MaximumRowsCountinTablePage = Integer.parseInt(prop.getProperty("MaximumRowsCountinTablePage"));
+	        // initializing the existing tables adding them to created table array list and their pages
+	        //adding them to created pages arraylist and initilizing every indices of column of particular table for every run
 
 	}
 //	public void init()throws IOException{
